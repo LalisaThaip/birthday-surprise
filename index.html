@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday 🎂</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- TOP HALF: CAMERA -->
+  <div class="top">
+    <div class="camera-frame">
+      <video id="webcam" autoplay playsinline></video>
+    </div>
+  </div>
+
+  <!-- BOTTOM HALF: CAKE -->
+  <div class="bottom">
+    <div class="cake-wrapper">
+      <img id="cakeImage" src="unlit.png" class="cake-img" />
+      <img id="smokeImage" src="smoke.png" class="smoke-img hidden" />
+    </div>
+
+    <div class="birthday-text">A Birthday Special For Alex:</div>
+  </div>
+
+</div>
+
+<!-- Envelope -->
+<img id="envelope" src="envelope.png" class="envelope hidden" />
+
+<!-- Message Popup -->
+<div id="messagePopup" class="popup hidden">
+  <h1>Happy Birthday Lover Boy</h1>
+  <p>
+    I wish you the finest of birthdays my trouble maker. 
+    I love you more than words can say
+    and more than code can compile. I hope this little
+    surprise makes your birthday extra special, just like you are to me.
+    I hope this year brings you success with all your
+    pursuits, albeit in studies, career, and personal growth. 
+    May you be surrounded by the things that make life worth living, and may you take time for yourself to find joy in the little things.
+    I am lucky to have you in my life and I hope you know how much you mean to me.
+    I know it is your birthday, but I am the one wishing we can celebrate more birthdays together in the future. 
+  </p>
+
+  <p>
+    Happy 24th, Alex. <br>
+    With much love, <br>
+    Lisa
+  </p>
+  <button id="closeMessageBtn">Close</button>
+</div>
+
+<audio id="music" src="music.mp3" loop></audio>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
